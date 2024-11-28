@@ -40,10 +40,6 @@ body {
     transition: 0.3s ease;
 }
 
-.con-logo:hover {
-    transform: scale(0.95);
-}
-
 .logo {
     border-radius: 50%;
     width: 100%;
@@ -106,11 +102,6 @@ body {
     transition: all 0.3s ease;
     margin-bottom: 20px;
     transform: rotate(-1deg);
-}
-
-.custom-button:hover {
-    background: white;
-    color:rgb(0, 102, 255); /* Warna hijau gelap saat hover */
 }
 
 i {
@@ -226,7 +217,39 @@ i {
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
+    .custom-button:hover {
+    background: white;
+    color:rgb(0, 102, 255); /* Warna hijau gelap saat hover */
+    }
+
+    .con-logo:hover {
+    transform: scale(0.95);
+    }
+
+    .custom-button-ig:hover {
+    background: white;
+    color:rgb(0, 102, 255); /* Warna hijau gelap saat hover */
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .con-logo:active {
+    transform: scale(0.95);
+    }
+
+    .custom-button:active {
+    background: white;
+    color:rgb(0, 102, 255); /* Warna hijau gelap saat hover */
+    }
+
+    .custom-button-ig:active {
+    background: white;
+    color:rgb(0, 102, 255); /* Warna hijau gelap saat hover */
+    }
+
     .container {
         width: 95%;
         margin: 0;
