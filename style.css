@@ -12,6 +12,7 @@ body {
     justify-content: center;
     letter-spacing: 0.07em;
     height: max-content;
+    padding-top: 50px;
 }
 
 .container {
