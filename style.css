@@ -99,7 +99,6 @@ body {
     transition: background-color 0.3s ease;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
-    transition: all 0.3s ease;
     margin-bottom: 20px;
     transform: rotate(-1deg);
 }
@@ -150,7 +149,6 @@ i {
     transition: background-color 0.3s ease;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
-    transition: all 0.3s ease;
     margin-bottom: 20px;
     transform: rotate(-1deg);
 }
